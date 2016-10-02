@@ -1,5 +1,145 @@
-body{
-    background-color: darkgray;
-    color: ghostwhite;
+/* --- Best Practices
+
+Color:
+    Hover on link: rgb(60, 115, 226);
+
+
+*/
+
+
+#top-bar {
+    float: right;
+}
+
+#cartshop {
+    height: 21px;
+    position: relative;
+    top: 5px;
+    margin-left: 13px;
+}
+
+#top-bar a {
+    border-right: 1px solid rgb(147, 147, 147);
+    padding-right: 13px;
+    margin-left: 13px;
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+}
+
+#top-bar a:hover {
+    color: rgb(60, 115, 226);
+}
+
+#cartshop:hover {
+    color: rgb(60, 115, 226);
+    /*Review how to make it*/
+}
+
+#logo {
+    /*    height: 5%;*/
+    /*    width: 21%;*/
+    width: 190px;
+    margin: 30px;
+    /*     display:inline-block;*/
+    /*     border:1px solid;*/
+    float: left;
+    margin-right: 150px;
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin: 35px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-family: "Moderat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+.main-nav a:hover {
+    border-top: 3px rgb(60, 115, 226) solid;
+}
+
+#more-sign {
+    height: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.feature {
+    background-color: rgb(244, 244, 244);
+    width: 100%;
     text-align: center;
+    padding: 20px 0px;
+}
+
+.feature ul {
+    display: inline;
+}
+
+.nav-feature {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.nav-feature a {
+    text-decoration: none;
+    color: black;
+    font-family: "Moderat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-feature a:hover {
+    color: rgb(60, 115, 226);
+}
+
+#shop {
+    border-top: 3px solid rgb(60, 115, 226);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: "Larish Neue Semibold", Palatino, "Times New Roman", Times, serif;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover {
+    color: rgb(114, 114, 114);
+}
+
+.column {
+    float: left;
+    margin: 18px;
+}
+
+.column1 {
+    width: 370px;
+    height: 370px;
+}
+
+.description{
+    text-align: center;
+}
+
+h4{
+    color: rgb(169,169,169);
+}
+
+h3:hover {
+    color: rgb(114, 114, 114);
 }
