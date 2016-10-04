@@ -6,7 +6,6 @@ Color:
 
 */
 
-
 #top-bar {
     float: right;
 }
@@ -132,14 +131,133 @@ h1 a:hover {
     height: 370px;
 }
 
-.description{
+.description {
     text-align: center;
 }
 
-h4{
-    color: rgb(169,169,169);
+h4 {
+    color: rgb(169, 169, 169);
 }
 
 h3:hover {
     color: rgb(114, 114, 114);
+}
+
+#button-seller {
+    width: 300px;
+    height: 60px;
+    background: url("../images/seller-button-2.png") no-repeat top left;
+    display: block;
+    margin: 0 auto;
+}
+
+#button-seller:hover {
+    background-position: bottom right;
+    width: 300px;
+}
+
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    margin: 40px 0 0 0;
+}
+
+footer h3 {
+    font-size: 23px;
+    font-family: "Larish Neue Semibold", Palatino, "Times New Roman", Times, serif;
+}
+
+footer p {
+    font-size: 14px;
+    font-family: "Larish Neue Semibold", Palatino, "Times New Roman", Times, serif;
+}
+
+footer a {
+    color: black;
+}
+
+.CustomService {
+    width: 25%;
+    /*    float:left;*/
+    /*    border: 1px solid black;*/
+    display: inline-block;
+    height: 300px;
+    overflow: auto;
+    margin-left: 50px;
+}
+
+.About {
+    width: 15%;
+    height: 300px;
+    display: inline-block;
+    /*    border: 1px solid black;*/
+    overflow: auto;
+}
+
+.ShareUgmonk {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    /*        border: 1px solid black;*/
+    font-size: 23px;
+    /*    overflow: auto;*/
+    vertical-align: top;
+    text-align: center;
+}
+
+.FooterLogo {
+    width: 25%;
+    overflow: auto;
+    display: inline-block;
+    float: right;
+    overflow: auto;
+    text-align: right;
+    /*        border: 1px solid black;*/
+    height: 300px;
+}
+
+#logofooter {
+    height: 80px;
+    margin: 27px 10px 10px 10px;
+}
+
+#giveget {
+    border: 3.5px solid white;
+    font-size: 20px;
+    font-family: "Larish Neue Semibold", Palatino, "Times New Roman", Times, serif;
+    width: 220px;
+    padding: 10px 5px 10px 24px;
+    margin: 0 auto;
+}
+
+#giveget a {
+    color: rgb(60, 115, 226);
+}
+
+#giveget:hover {
+    background-color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(60, 115, 226);
+}
+
+.FooterLogo p {
+    padding-right: 14px;
+    color: rgb(136, 136, 136);
+    font-family: "Larish Neue Semibold", Palatino, "Times New Roman", Times, serif;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.icon {
+    height: 30px;
+    padding-right: 10px;
 }
